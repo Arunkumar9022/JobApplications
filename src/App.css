@@ -1,0 +1,41 @@
+.APP
+{
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filterInput {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.jobGrid {
+  overflow-y: auto;
+  max-height: 70vh;
+}
+
+@media (max-width: 600px) {
+  .filters {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filterInput {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
